@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="forms-container">
 			<div class="signin-signup">
-				<form action="#" class="sign-in-form">
+				<form action="empresa/dashboard.php" class="sign-in-form">
 					<h2 class="title">Iniciar Sesión</h2>
           <p class="social-text">Ingresa tu correo y contraseña</p>
 					<div class="input-field">
@@ -26,7 +26,7 @@
 						<i class="fas fa-lock"></i>
 						<input type="password" placeholder="Contraseña" minlength="8" maxlength="20" required/>
 					</div>
-					<input type="submit" value="Iniciar Sesión" class="btn solid" />
+					<input type="submit" value="Iniciar Sesión" class="btn solid"/>
 					
 
 				</form>

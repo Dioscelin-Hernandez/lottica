@@ -38,7 +38,7 @@
   <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="../pages/dashboard.html">
+        <a class="nav-link active" href="dashboard.php">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="ni ni-tv-2 text-dark text-sm opacity-10"></i>
           </div>
@@ -46,7 +46,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../pages/pacientes.php">
+        <a class="nav-link " href="pacientes.php">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
           <i class="fas fa-users text-dark text-sm opacity-10"></i>
           </div>
@@ -54,7 +54,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../pages/productor.php">
+        <a class="nav-link " href="productos.php">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="fas fa-glasses text-dark text-sm opacity-10"></i>
           </div>
@@ -62,7 +62,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../pages/ventas.php">
+        <a class="nav-link " href="ventas.php">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
           <i class="fas fa-money-check-alt text-dark text-sm opacity-10"></i>
           </div>
@@ -70,7 +70,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../pages/empleados.php.">
+        <a class="nav-link " href="empleados.php.">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="fas fa-user-friends text-dark text-sm opacity-10"></i>
           </div>
@@ -78,7 +78,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../pages/inventario.php.">
+        <a class="nav-link " href="inventario.php.">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="ni ni-app text-dark text-sm opacity-10"></i>
           </div>
@@ -89,7 +89,7 @@
         <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Cuenta</h6>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../pages/perfil.php">
+        <a class="nav-link " href="perfil.php">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
           </div>
@@ -105,7 +105,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../pages/Ayuda.php">
+        <a class="nav-link " href="Ayuda.php">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="far fa-question-circle text-dark text-sm opacity-10"></i>
           </div>
