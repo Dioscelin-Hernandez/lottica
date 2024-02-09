@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" href="assets/img/logo.png">
   <link id="pagestyle" href="assets/css/argon-dashboard.css?v=2.0.4" rel="stylesheet" />
   <title>
-    Inicio Sesión
+    Recuperar Contraseña
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -33,9 +33,12 @@
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
+            <center>
+            <h1 class="text-white mb-2 mt-5" style="font-size:45;">¿Olvidaste tu contraseña?</h1>
+            </center>
           <div class="col-lg-5 text-center mx-auto">
-		  <h1 class="text-white mb-2 mt-5">!Bienvenido!</h1>
-		  <h4 class="text-lead text-white" style=" margin-bottom: -20px;">Inicio Sesión</h4>
+		  
+		  <h4 class="text-lead text-white" style=" margin-bottom: -20px;">Te llegara un correo electronico.</h4>
           </div>
         </div>
       </div>
@@ -51,22 +54,14 @@
             </div>
             <div class="card-body" style=" margin-top: -20px;">
               <form role="form">
-			  <div class="mb-3" >
+                <div class="mb-3" >
                   <input type="email" class="form-control" placeholder="Email" aria-label="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
                 </div>
-                <div class="mb-3">
-                  <input type="password" class="form-control" placeholder="Password" aria-label="Password" minlength="8" maxlength="16" required>
-                </div>
-                <div class="form-check form-check-info text-start">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
-                  <label class="form-check-label" for="flexCheckDefault">
-                    Recordarme 
-                  </label>
-                </div>
+                
                 <div class="text-center">
-                  <a href="empresa/dashboard.php"><button type="button" class="btn bg-gradient-dark w-100 my-4 mb-2">Iniciar Sesión</button></a>
+                  <a href="login.php"><button type="button" class="btn bg-gradient-dark w-100 my-4 mb-2">Enviar</button>
                 </div>
-                <p class="text-sm mt-3 mb-0">Olvidaste tu contraseña? <a href="contraseña.php" class="text-dark font-weight-bolder">Recuperala</a></p>
+                <p class="text-sm mt-3 mb-0">Si tengo mi contraseña <a href="login.php" class="text-dark font-weight-bolder">Regresar</a></p>
               </form>
             </div>
           </div>
