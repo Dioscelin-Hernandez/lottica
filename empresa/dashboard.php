@@ -97,7 +97,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../login.php">
+        <a class="nav-link " href="../index.php">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="fas fa-sign-in-alt text-dark text-sm opacity-10"></i>
           </div>
@@ -139,7 +139,7 @@
           </div>
           <ul class="navbar-nav  justify-content-end">
             <li class="nav-item d-flex align-items-center">
-              <a href="../login.php" class="nav-link text-black font-weight-bold px-0">
+              <a href="../index.php" class="nav-link text-black font-weight-bold px-0">
                 <i class="fas fa-sign-out-alt" style="color:#000"></i>
                 <span class="" style="color:#000">Cerrar Sesión</span>
               </a>

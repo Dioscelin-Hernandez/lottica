@@ -59,9 +59,9 @@
                 </div>
                 
                 <div class="text-center">
-                  <a href="login.php"><button type="button" class="btn bg-gradient-dark w-100 my-4 mb-2">Enviar</button>
+                  <a href="index.php"><button type="button" class="btn bg-gradient-dark w-100 my-4 mb-2">Enviar</button>
                 </div>
-                <p class="text-sm mt-3 mb-0">Si tengo mi contraseña <a href="login.php" class="text-dark font-weight-bolder">Regresar</a></p>
+                <p class="text-sm mt-3 mb-0">Si tengo mi contraseña <a href="index.php" class="text-dark font-weight-bolder">Regresar</a></p>
               </form>
             </div>
           </div>
