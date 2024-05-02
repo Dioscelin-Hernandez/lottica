@@ -1,5 +1,5 @@
 <?php
-  session_start();
+  /*session_start();
   // URL de la API a la que deseas hacer la solicitud POST
 $apiUrl = "http://127.0.0.1:8000/api/sesion";
 
@@ -30,7 +30,7 @@ if(http_response_code() === 200){
         $nombre = $primerElemento['nombre'];
     
   
-      if($nombre != null){
+      if($nombre != null){*/
         ?>
       <!DOCTYPE html>
 <html lang="en">
@@ -580,7 +580,7 @@ if(http_response_code() === 200){
 </html>
 
     <?php
-      }}
+      /*}}
 
   
   }else{  ?>
@@ -593,7 +593,7 @@ if(http_response_code() === 200){
   header('location:../');
   }
 }
-
+*/
 ?>
 
 
