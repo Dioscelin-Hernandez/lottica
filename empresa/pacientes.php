@@ -281,6 +281,7 @@
       <label for="validationTooltip06" class="form-label">Último examen de la vista</label>
       <div class="input-group">
        <select class="form-select" id="uvalidationTooltip06">
+        <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="00">Nunca</option>
         <option value="0.5">2 semanas</option>
         <option value="1">1 mes</option>
@@ -302,7 +303,6 @@
         <option value="96">8 años</option>
         <option value="108">9 años</option>
         <option value="120">10 años</option>
-        <!-- Agrega más opciones según sea necesario -->
        </select>
 </div>
 
@@ -312,6 +312,7 @@
       <label for="validationTooltip07" class="form-label">Tiempo con la última graduación</label>
 <div class="input-group">
     <select class="form-select" id="uvalidationTooltip07">
+        <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="00">No usa</option>
         <option value="0.5">2 semanas</option>
         <option value="1">1 mes</option>
@@ -355,7 +356,7 @@
       <div class="mb-3">
         <label for="pregunta1" class="form-label">Hipertensión</label>
         <select class="form-select" id="pregunta1" onchange="mostrarSiguientePregunta1()">
-        <option value=""></option>
+        <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="si">Sí</option>
         <option value="no">No</option>
       </select>
@@ -364,7 +365,7 @@
     <div class="mb-3">
       <label for="pregunta1" class="form-label">¿Controlada?</label>
       <select class="form-select" id="pregunta1" >
-      <option value=""></option>
+      <option value="" disabled selected hidden>Selecciona una opción</option>
       <option value="si">Sí</option>
       <option value="no">No</option>
     </select>
@@ -377,7 +378,7 @@
       <div class="mb-3">
         <label for="pregunta2" class="form-label">Diabetes</label>
         <select class="form-select" id="pregunta2" onchange="mostrarSiguientePregunta2()">
-        <option value=""></option>
+        <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="si">Sí</option>
         <option value="no">No</option>
       </select>
@@ -386,7 +387,7 @@
     <div class="mb-3">
       <label for="pregunta2" class="form-label">¿Controlada?</label>
       <select class="form-select" id="pregunta2" >
-      <option value=""></option>
+      <option value="" disabled selected hidden>Selecciona una opción</option>
       <option value="si">Sí</option>
       <option value="no">No</option>
     </select>
@@ -399,7 +400,7 @@
       <div class="mb-3">
         <label for="pregunta3" class="form-label">Glaucoma</label>
         <select class="form-select" id="pregunta3" onchange="mostrarSiguientePregunta3()">
-        <option value=""></option>
+        <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="si">Sí</option>
         <option value="no">No</option>
       </select>
@@ -408,7 +409,7 @@
     <div class="mb-3">
       <label for="pregunta3" class="form-label">¿Con cirugia?</label>
       <select class="form-select" id="pregunta3" >
-      <option value=""></option>
+      <option value="" disabled selected hidden>Selecciona una opción</option>
       <option value="si">Sí</option>
       <option value="no">No</option>
     </select>
@@ -421,7 +422,7 @@
       <div class="mb-3">
         <label for="pregunta4" class="form-label">Catarata</label>
         <select class="form-select" id="pregunta4" onchange="mostrarSiguientePregunta4()">
-        <option value=""></option>
+        < <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="si">Sí</option>
         <option value="no">No</option>
       </select>
@@ -430,7 +431,7 @@
     <div class="mb-3">
       <label for="pregunta4" class="form-label">¿Operado?</label>
       <select class="form-select" id="pregunta4" >
-      <option value=""></option>
+      <option value="" disabled selected hidden>Selecciona una opción</option>
       <option value="si">Sí</option>
       <option value="no">No</option>
     </select>
@@ -443,7 +444,7 @@
       <div class="mb-3">
         <label for="pregunta0" class="form-label">Queratocono</label>
         <select class="form-select" id="pregunta0">
-        <option value=""></option>
+        <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="si">Sí</option>
         <option value="no">No</option>
       </select>
@@ -457,7 +458,7 @@
       <div class="mb-3">
         <label for="pregunta5" class="form-label">Cirugías en Cabeza u ojos</label>
         <select class="form-select" id="pregunta5" onchange="mostrarSiguientePregunta5()">
-        <option value=""></option>
+        <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="si">Sí</option>
         <option value="no">No</option>
       </select>
@@ -466,7 +467,7 @@
     <div class="mb-3">
       <label for="pregunta5" class="form-label">¿Porqué?</label>
       <select class="form-select" id="pregunta5" >
-      <option value=""></option>
+      <option value="" disabled selected hidden>Selecciona una opción</option>
       <option value="si">Caída</option>
       <option value="no">Tumor</option>
       <option value="si">Traumatismo</option>
@@ -482,7 +483,7 @@
       <div class="mb-3">
         <label for="pregunta6" class="form-label">Traumatismos</label>
         <select class="form-select" id="pregunta6" onchange="mostrarSiguientePregunta6()">
-        <option value=""></option>
+        <option value="" disabled selected hidden>Selecciona una opción</option>
         <option value="si">Sí</option>
         <option value="no">No</option>
       </select>
@@ -491,7 +492,7 @@
     <div class="mb-3">
       <label for="pregunta6" class="form-label">¿Donde?</label>
       <select class="form-select" id="pregunta6" >
-      <option value=""></option>
+      <option value="" disabled selected hidden>Selecciona una opción</option>
       <option value="si">Sustancia en los ojos</option>
       <option value="no">Golpe en ojos</option>
       <option value="si">Golpe en cabeza</option>
@@ -503,82 +504,699 @@
   </div>
   </div>
 
+
+
+    <!--Antecedentes Heredofamiliares (AHF) (Abuelos, ppadres, hermanos)-->
+<hr class="divider2">
+    <h6 class="mb-0">Antecedentes Heredofamiliares (AHF) (Abuelos, padres, hermanos)</h6><br></br>
+
+    <!--Hipertensión-->
+    <div class="col-md-4 position-relative">
+      <div class="mb-3">
+        <label for="pregunta01" class="form-label">Hipertensión</label>
+        <select class="form-select" id="pregunta01" onchange="mostrarSiguientePregunta01()">
+        <option value="" disabled selected hidden>Selecciona una opción</option>
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="siguientePregunta01" style="display: none;">
+    <div class="mb-3">
+      <label for="pregunta01" class="form-label">¿Quien?</label>
+      <select class="form-select" id="pregunta01" >
+      <option value="" disabled selected hidden>Selecciona una opción</option>
+      <option value="si">Abuelos</option>
+      <option value="no">Padres</option>
+      <option value="no">Hermanos</option>
+    </select>
+    </div>
+  </div>
+  </div>
+
+  <!--Diabetes-->
+  <div class="col-md-4 position-relative">
+      <div class="mb-3">
+        <label for="pregunta02" class="form-label">Diabetes</label>
+        <select class="form-select" id="pregunta02" onchange="mostrarSiguientePregunta02()">
+        <option value="" disabled selected hidden>Selecciona una opción</option>
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="siguientePregunta02" style="display: none;">
+    <div class="mb-3">
+      <label for="pregunta02" class="form-label">¿Quien?</label>
+      <select class="form-select" id="pregunta02" >
+      <option value="" disabled selected hidden>Selecciona una opción</option>
+      <option value="si">Abuelos</option>
+      <option value="no">Padres</option>
+      <option value="no">Hermanos</option>
+    </select>
+    </div>
+  </div>
+  </div>
+
+    <!--Glaucoma-->
+    <div class="col-md-4 position-relative">
+      <div class="mb-3">
+        <label for="pregunta03" class="form-label">Glaucoma</label>
+        <select class="form-select" id="pregunta03" onchange="mostrarSiguientePregunta03()">
+        <option value="" disabled selected hidden>Selecciona una opción</option>
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="siguientePregunta03" style="display: none;">
+    <div class="mb-3">
+      <label for="pregunta03" class="form-label">¿Quien?</label>
+      <select class="form-select" id="pregunta03" >
+      <option value="" disabled selected hidden>Selecciona una opción</option>
+      <option value="si">Abuelos</option>
+      <option value="no">Padres</option>
+      <option value="no">Hermanos</option>
+    </select>
+    </div>
+  </div>
+  </div>
+
+  <!--Catarata-->
+  <div class="col-md-6 position-relative">
+      <div class="mb-3">
+        <label for="pregunta04" class="form-label">Catarata</label>
+        <select class="form-select" id="pregunta04" onchange="mostrarSiguientePregunta04()">
+        <option value="" disabled selected hidden>Selecciona una opción</option>
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="siguientePregunta04" style="display: none;">
+    <div class="mb-3">
+      <label for="pregunta04" class="form-label">¿Quien?</label>
+      <select class="form-select" id="pregunta04" >
+      <option value="" disabled selected hidden>Selecciona una opción</option>
+      <option value="si">Abuelos</option>
+      <option value="no">Padres</option>
+      <option value="no">Hermanos</option>
+    </select>
+    </div>
+  </div>
+  </div>
+
+
+  <!--Queratocono-->
+  <div class="col-md-6 position-relative">
+      <div class="mb-3">
+        <label for="pregunta05" class="form-label">Queratocono</label>
+        <select class="form-select" id="pregunta05" onchange="mostrarSiguientePregunta05()">
+        <option value="" disabled selected hidden>Selecciona una opción</option>
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div id="siguientePregunta05" style="display: none;">
+    <div class="mb-3">
+      <label for="pregunta05" class="form-label">¿Quien?</label>
+      <select class="form-select" id="pregunta05" >
+      <option value="" disabled selected hidden>Selecciona una opción</option>
+      <option value="si">Abuelos</option>
+      <option value="no">Padres</option>
+      <option value="no">Hermanos</option>
+    </select>
+    </div>
+  </div>
+  </div>
+
+
+  <!--Aspectos de repercusión ocular-->
+<hr class="divider2">
+    <h6 class="mb-0">Aspectos de repercusión ocular</h6><br></br>
+
+    <table>
+        <tr>
+            <th class="form-label" style="text-align: center;"></th>
+            <th class="form-label">SI</th>
+            <th class="form-label">NO</th>
+            <th class="form-label" style="text-align: center;">TIEMPO DE EVOLUCIÓN</th>
+            <th class="form-label" style="text-align: center;">TRATAMIENTO</th>
+        </tr>
+        <tr>
+            <td style="color: gray;">Dolor de cabeza (cefalea, migraña)</td>
+            <td><input type="radio" name="dolor_cabeza" value="si" onclick="toggleDolorCabeza(this)"></td>
+            <td><input type="radio" name="dolor_cabeza" value="no" onclick="toggleDolorCabeza(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_dolor_cabeza" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_dolor_cabeza" disabled></td>
+        </tr>
+        <tr>
+            <td style="color: gray;">Dolor ocular</td>
+            <td><input type="radio" name="dolor_ocular" value="si" onclick="toggleDolorOcular(this)"></td>
+            <td><input type="radio" name="dolor_ocular" value="no" onclick="toggleDolorOcular(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_dolor_ocular" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_dolor_ocular" disabled></td>
+        </tr>
+        <tr>
+            <td style="color: gray;">Cansancio visual (Astenopia)</td>
+            <td><input type="radio" name="cansancio_visual" value="si" onclick="toggleCansancioVisual(this)"></td>
+            <td><input type="radio" name="cansancio_visual" value="no" onclick="toggleCansancioVisual(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_cansancio_visual" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_cansancio_visual" disabled></td>
+        </tr>
+        <tr>
+            <td style="color: gray;">Hiperemia (Enrojecimiento)</td>
+            <td><input type="radio" name="hiperemia" value="si" onclick="toggleHiperemia(this)"></td>
+            <td><input type="radio" name="hiperemia" value="no" onclick="toggleHiperemia(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_hiperemia" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_hiperemia" disabled></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Congestión e inflamación</td>
+            <td><input type="radio" name="congestion" value="si" onclick="toggleCongestion(this)"></td>
+            <td><input type="radio" name="congestion" value="no" onclick="toggleCongestion(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_congestion" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_congestion" disabled></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Epífora (Lagrimeo constante)</td>
+            <td><input type="radio" name="epifora" value="si" onclick="toggleEpifora(this)"></td>
+            <td><input type="radio" name="epifora" value="no" onclick="toggleEpifora(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_epifora" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_epifora" disabled></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Miodesopsias (Moscas volantes)</td>
+            <td><input type="radio" name="Miodesopsias" value="si" onclick="toggleMiodesopsias(this)"></td>
+            <td><input type="radio" name="Miodesopsias" value="no" onclick="toggleMiodesopsias(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_Miodesopsias" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_Miodesopsias" disabled></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Fotopsias</td>
+            <td><input type="radio" name="Fotopsias" value="si" onclick="toggleFotopsias(this)"></td>
+            <td><input type="radio" name="Fotopsias" value="no" onclick="toggleFotopsias(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_Fotopsias" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_Fotopsias" disabled></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Secreción o lagaña</td>
+            <td><input type="radio" name="Secrecion" value="si" onclick="toggleSecrecion(this)"></td>
+            <td><input type="radio" name="Secrecion" value="no" onclick="toggleSecrecion(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_Secrecion" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_Secrecion" disabled></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Alteraciones palpebrales</td>
+            <td><input type="radio" name="Alteraciones" value="si" onclick="toggleAlteraciones(this)"></td>
+            <td><input type="radio" name="Alteraciones" value="no" onclick="toggleAlteraciones(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_Alteraciones" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_Alteraciones" disabled></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Defectos de la visión</td>
+            <td><input type="radio" name="Defectos" value="si" onclick="toggleDefectos(this)"></td>
+            <td><input type="radio" name="Defectos" value="no" onclick="toggleDefectos(this)"></td>
+            <td>
+                <select class="form-control" name="tiempo_Defectos" disabled>
+                    <option value="" disabled selected hidden>Selecciona una opción</option>
+                    <option value="menos_de_una_semana">Menos de una semana</option>
+                    <option value="una_semana">Una semana</option>
+                    <option value="dos_semanas">Dos semanas</option>
+                    <option value="un_mes">1 mes</option>
+                    <option value="seis_meses">6 meses</option>
+                    <option value="un_ano">1 año</option>
+                    <option value="siempre">Siempre</option>
+                </select>
+            </td>
+            <td><input type="text" class="form-control" name="tratamiento_Defectos" disabled></td>
+        </tr>
+    </table>
+
+      <!--Revision de anexos oculares-->
+      <hr class="divider2">
+      <h6 class="mb-0">Revisión de Anexos Oculares</h6><br></br>
+      
+      <table>
+        <tr>
+            <th class="form-label"></th>
+            <th class="form-label" style="text-align: center;">O.D.</th>
+            <th class="form-label" style="text-align: center;">O.I.</th>
+        </tr>
+        <tr>
+            <td style="color: gray;">Cejas</td>
+            <td><input type="text" class="form-control" name="cejas"></td>
+            <td><input type="text" class="form-control" name="cejas"></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Párpados</td>
+            <td><input type="text" class="form-control" name="parpados"></td>
+            <td><input type="text" class="form-control" name="parpados" ></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Pestañas</td>
+            <td><input type="text" class="form-control" name="pestanas"></td>
+            <td><input type="text" class="form-control" name="pestanas" ></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Conjuntiva</td>
+            <td><input type="text" class="form-control" name="conjuntiva"></td>
+            <td><input type="text" class="form-control" name="conjuntiva" ></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">Aparato Lagrimal</td>
+            <td><input type="text" class="form-control" name="Aparato lagrimal"></td>
+            <td><input type="text" class="form-control" name="Aparato lagrimal" ></td>
+        </tr>
+        
+    </table>
+
+      <!--Graduación anterior-->
+      <hr class="divider2">
+      <h6 class="mb-0">Graduación Anterior</h6><br></br>
+      
+      <table>
+        <tr>
+            <th class="form-label"></th>
+            <th class="form-label" style="text-align: center;">ESFERA</th>
+            <th class="form-label" style="text-align: center;">CILINDRO</th>
+            <th class="form-label" style="text-align: center;">EJE</th>
+            <th class="form-label" style="text-align: center;">ADICION</th>
+        </tr>
+        <tr>
+            <td style="color: gray;">O.D.</td>
+            <td><input type="text" class="form-control" name="ojo derecho"></td>
+            <td><input type="text" class="form-control" name="ojo derecho"></td>
+            <td><input type="text" class="form-control" name="ojo derecho"></td>
+            <td><input type="text" class="form-control" name="ojo derecho"></td>
+        </tr>
+
+        <tr>
+            <td style="color: gray;">O.I.</td>
+            <td><input type="text" class="form-control" name="ojo izquierdo"></td>
+            <td><input type="text" class="form-control" name="ojo izquierdo"></td>
+            <td><input type="text" class="form-control" name="ojo izquierdo"></td>
+            <td><input type="text" class="form-control" name="ojo izquierdo"></td>
+        </tr>
+    </table>
+
+    <table>
+        
+        <tr>
+        <td style="width: 70px; color: gray;">Tipo y material de lentes</td>
+        <td style="width: 300px;"><input type="text" class="form-control" name="tipo_y_material_de_lentes"></td>
+
+        </tr>
+    </table>
+    
+
+    <!--Distancia interpupilar (DIP)-->
+    <hr class="divider2">
+      <h6 class="mb-0">Distancia interpupilar (DIP)</h6><br></br>
+      
+      <table>
+        <tr>
+            <th class="form-label" style="text-align: center;">DIP LEJANA</th>
+            <th class="form-label" style="text-align: center;">DIP CERCANA</th>
+            <th class="form-label" style="text-align: center;">DNP</th>
+        </tr>
+        <tr>
+            <td><input type="text" class="form-control" name="DNP"></td>
+            <td><input type="text" class="form-control" name="DNP"></td>
+            <td style="display: flex;">
+                <input type="text" class="form-control" name="DNP" style="flex: 1;">
+                <input type="text" class="form-control" name="DNP" style="flex: 1;">
+            </td>
+
+        </tr>
+
+    </table>
+
+
+
+    <!--Agudeza visual-->
+    <hr class="divider2">
+      <h6 class="mb-0">Agudeza visual</h6><br></br>
+      <div class="container">
+      <table>
+        <tr>
+            <th class="form-label" style="text-align: center;"></th>
+            <th class="form-label" style="text-align: center;">CON LENTES</th>
+            <th class="form-label" style="text-align: center;">SIN LENTES</th>
+            <th class="form-label" style="text-align: center;">CON AGUJERO ESTENOPEICO</th>
+            <th class="form-label" style="text-align: center;">BINOCULAR</th>
+            <th class="form-label" style="text-align: center;">CERCANA</th>
+        </tr>
+        <tr>
+            <td style="width: 40px; color: gray;">O.D.</td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+        </tr>
+
+        <tr>
+            <td style="width: 40px; color: gray;">O.I.</td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+        </tr>
+
+    </table>
+
+  </div>
+
+     <!--Retinoscopia-->
+     <hr class="divider2">
+      <h6 class="mb-0">Retinoscopía</h6><br></br>
   
+      <table>
+        <tr>
+            <th class="form-label" style="text-align: center;"></th>
+            <th class="form-label" style="text-align: center;">ESFERA</th>
+            <th class="form-label" style="text-align: center;">CILINDRO</th>
+            <th class="form-label" style="text-align: center;">EJE</th>
+        </tr>
+        <tr>
+            <td style="width: 40px; color: gray;">O.D.</td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+        </tr>
+
+        <tr>
+            <td style="width: 40px; color: gray;">O.I.</td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+        </tr>
+
+    </table>
 
 
-</form>
+    <!--Relog Astigmatico (H*30)-->
+    <hr class="divider2">
+      <h6 class="mb-0">Relog Astigmatico (H*30)</h6><br></br>
 
+        <div class="row">
+            <div class="col">
+                <table>
+                  <tr>
+                    <th class="form-label" style="text-align: center;"></th>
+                    <th class="form-label" style="text-align: center;">HORA</th>
+                    <th class="form-label" style="text-align: center;">EJE</th>
+                </tr>
+                <tr>
+                    <td style="width: 40px; color: gray;">O.D.</td>
+                    <td style="width: 600px;"><input type="text" class="form-control" name="OD"></td>
+                    <td style="width: 600px;"><input type="text" class="form-control" name="OD"></td>
+                </tr>
 
-    <!-- Sección: Antecedentes de Salud Personal -->
-    <h2 class="mb-3">Antecedentes de Salud Personal</h2>
-    <!-- Agrega aquí los campos correspondientes -->
+                <tr>
+                    <td style="width: 40px; color: gray;">O.I.</td>
+                    <td style="width: 600px"><input type="text" class="form-control" name="OI"></td>
+                    <td style="width: 600px"><input type="text" class="form-control" name="OI"></td>
+                </tr>
 
-    <!-- Sección: Antecedentes Heredofamiliares (AHF) -->
-    <h2 class="mb-3">Antecedentes Heredofamiliares (AHF)</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Aspectos de Repercusión Ocular -->
-    <h2 class="mb-3">Aspectos de Repercusión Ocular</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Revisión de Anexos Oculares -->
-    <h2 class="mb-3">Revisión de Anexos Oculares</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Graduación Anterior -->
-    <h2 class="mb-3">Graduación Anterior</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Distancia Interpupilar (DIP) -->
-    <h2 class="mb-3">Distancia Interpupilar (DIP)</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Agudeza Visual -->
-    <h2 class="mb-3">Agudeza Visual</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Retinoscopía -->
-    <h2 class="mb-3">Retinoscopía</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Reloj Astigmático (H*30) -->
-    <h2 class="mb-3">Reloj Astigmático (H*30)</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Prueba Ambulatoria -->
-    <h2 class="mb-3">Prueba Ambulatoria</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Determinación de la Adición -->
-    <h2 class="mb-3">Determinación de la Adición</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Prueba Bicromática -->
-    <h2 class="mb-3">Prueba Bicromática</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Cilindro Cruzado -->
-    <h2 class="mb-3">Cilindro Cruzado</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Graduación Final -->
-    <h2 class="mb-3">Graduación Final</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Sección: Diagnóstico, Tipo de Corrección, Observaciones, Optometrista -->
-    <h2 class="mb-3">Diagnóstico, Tipo de Corrección, Observaciones, Optometrista</h2>
-    <!-- Agrega aquí los campos correspondientes -->
-
-    <!-- Botón de Enviar -->
-    <button type="submit" class="btn btn-primary">Enviar</button>
-  </form>
-</div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
-                </div>
+                </table>
             </div>
+
+    <div class="col">
+      <table>
+        <tr>
+          <th class="form-label" style="text-align: center;"></th>
+          <th class="form-label" style="text-align: center;">CILINDRO</th>
+        </tr>
+        
+        <tr>
+          <td style="width: 40px; color: gray;">O.D.</td>
+          <td style="width: 250px"><input type="text" class="form-control" name="OD"></td>
+        </tr>
+
+        <tr>
+          <td style="width: 40px; color: gray;">O.I.</td>
+          <td style="width: 250px"><input type="text" class="form-control" name="OI"></td>
+        </tr>
+
+      </table>
+    </div>
+
+    <div class="col">
+      <table>
+        <tr>
+          <th class="form-label" style="text-align: center; ">Prueba Ambulatoria</th>
+        </tr>
+        
+        <tr>
+        <td style="display: flex;">
+                <input type="text" class="form-control" name="prueba ambulatoria" style="flex: 1;">
+                <input type="text" class="form-control" name="prueba ambulatoria" style="flex: 1;">
+            </td>
+            <td style="display: flex;">
+                <input type="text" class="form-control" name="prueba ambulatoria" style="flex: 1;">
+                <input type="text" class="form-control" name="prueba ambulatoria" style="flex: 1;">
+            </td>
+
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+
+<!--Graduación final-->
+<hr class="divider2">
+      <h6 class="mb-0">Graduación final</h6><br></br>
+    
+      <table>
+        <tr>
+            <th class="form-label" style="text-align: center;"></th>
+            <th class="form-label" style="text-align: center;">ESFERA</th>
+            <th class="form-label" style="text-align: center;">CILINDRO</th>
+            <th class="form-label" style="text-align: center;">EJE</th>
+            <th class="form-label" style="text-align: center;">ADICIÓN</th>
+        </tr>
+        <tr>
+            <td style="width: 40px; color: gray;">O.D.</td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+            <td><input type="text" class="form-control" name="OD"></td>
+        </tr>
+
+        <tr>
+            <td style="width: 40px; color: gray;">O.I.</td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+            <td><input type="text" class="form-control" name="OI"></td>
+        </tr>
+
+    </table>
+
+    <style>
+    .divider3 {
+      border-bottom: 1px solid white; /* Cambia el color de la línea y el grosor según lo necesites */
+      margin-bottom: 10px; /* Agrega un margen inferior para separar el contenido siguiente */
+    }
+    </style>
+    <hr class="divider3">
+        <div class="row">
+          <div class="col">
+            <table>
+               <tr>
+                <th class="form-label" style="text-align: center;"></th>
+                <th class="form-label" style="text-align: center;">DIAGNOSTICO</th>
+              </tr>
+              
+              <tr>
+                <td style="width: 40px; color: gray;">O.D.</td>
+                <td style="width: 500px;"><input type="text" class="form-control" name="OD"></td>
+              </tr>
+
+              <tr>
+                <td style="width: 40px; color: gray;">O.I.</td>
+                <td style="width: 500px"><input type="text" class="form-control" name="OI"></td>
+              </tr>
+
+            </table>
+
+            </div>
+
+        
+          <div class="col">
+              <table>
+                <tr>
+                  <th class="form-label" style="text-align: center;">TIPO DE CORRECIÓN</th>
+                </tr>
+                <tr>
+                  <td style="width: 500px;"><input type="text" class="form-control" name="OD"></td>
+                </tr>
+              </table>
+          </div>
+
+          <div class="col">
+              <table>
+                <tr>
+                  <th class="form-label" style="text-align: center;">OBSERVACIONES</th>
+                </tr>
+        
+                <tr>
+                  <td style="width: 500px"><input type="text" class="form-control" name="OD"></td>
+                </tr>
+              </table>
+          </div><br></br><br></br><br>
+
+              <table>
+                <tr>
+                  <td style="width: 40px; color: gray;">Optimetrista</td>
+                  <td style="width: 850px;">
+                     <input type="text" class="form-control" value="Aqui que no se ingresen datos, si no que se ponga el nombre de la persona que inicio sesión" name="tipo_y_material_de_lentes">
+                  </td>
+                </tr>
+              </table>
+
+  </div>
+
+  
+        <div class="row">
+          <div class="col-sm-5">
+          </div>
+        <div class="col-sm-5">
+        </div>
+        <div class="col-sm-2">
+              <br>
+        <button type="submit" class="btn btn-dark" style="background-color: black; color: white; text-align: right; width: 150px; text-align: center;">Enviar</button>
         </div>
       </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
             
             
             <!--FIN MODAL NUEVO PACIENTE-->
@@ -655,89 +1273,7 @@
   <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
   <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
   <script src="../assets/js/plugins/chartjs.min.js"></script>
-  <script>
-    var ctx1 = document.getElementById("chart-line").getContext("2d");
-
-    var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
-
-    gradientStroke1.addColorStop(1, 'rgba(94, 114, 228, 0.2)');
-    gradientStroke1.addColorStop(0.2, 'rgba(94, 114, 228, 0.0)');
-    gradientStroke1.addColorStop(0, 'rgba(94, 114, 228, 0)');
-    new Chart(ctx1, {
-      type: "line",
-      data: {
-        labels: ["Semana 1-7", "Semana 8-14", "Semana 15-21", "Semana 22-28"],
-        datasets: [{
-          label: "Ventas",
-          tension: 0.5,
-          borderWidth: 0,
-          pointRadius: 0,
-          borderColor: "#000",
-          backgroundColor: gradientStroke1,
-          borderWidth: 3,
-          fill: true,
-          data: [50, 300, 220, 500],
-          maxBarThickness: 8
-
-        }],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: false,
-          }
-        },
-        interaction: {
-          intersect: false,
-          mode: 'index',
-        },
-        scales: {
-          y: {
-            grid: {
-              drawBorder: false,
-              display: true,
-              drawOnChartArea: true,
-              drawTicks: false,
-              borderDash: [5, 5]
-            },
-            ticks: {
-              display: true,
-              padding: 10,
-              color: '#fbfbfb',
-              font: {
-                size: 12,
-                family: "Open Sans",
-                style: 'normal',
-                lineHeight: 2
-              },
-            }
-          },
-          x: {
-            grid: {
-              drawBorder: false,
-              display: false,
-              drawOnChartArea: false,
-              drawTicks: false,
-              borderDash: [5, 5]
-            },
-            ticks: {
-              display: true,
-              color: '#ccc',
-              padding: 20,
-              font: {
-                size: 11,
-                family: "Open Sans",
-                style: 'normal',
-                lineHeight: 2
-              },
-            }
-          },
-        },
-      },
-    });
-  </script>
+  
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -821,7 +1357,268 @@
     }
   }
 </script>
-</body>
+
+<!--Antecedentes Heredo familiares-->
+
+<script>
+  function mostrarSiguientePregunta01() {
+    var respuesta = document.getElementById("pregunta01").value;
+    var siguientePregunta = document.getElementById("siguientePregunta01");
+
+    if (respuesta === "si") {
+      siguientePregunta.style.display = "block"; // Mostrar la siguiente pregunta si la respuesta es "sí"
+    } else {
+      siguientePregunta.style.display = "none"; // Ocultar la siguiente pregunta si la respuesta es "no"
+    }
+  }
+
+  function mostrarSiguientePregunta02() {
+    var respuesta = document.getElementById("pregunta02").value;
+    var siguientePregunta = document.getElementById("siguientePregunta02");
+
+    if (respuesta === "si") {
+      siguientePregunta.style.display = "block"; // Mostrar la siguiente pregunta si la respuesta es "sí"
+    } else {
+      siguientePregunta.style.display = "none"; // Ocultar la siguiente pregunta si la respuesta es "no"
+    }
+  }
+
+  function mostrarSiguientePregunta03() {
+    var respuesta = document.getElementById("pregunta03").value;
+    var siguientePregunta = document.getElementById("siguientePregunta03");
+
+    if (respuesta === "si") {
+      siguientePregunta.style.display = "block"; // Mostrar la siguiente pregunta si la respuesta es "sí"
+    } else {
+      siguientePregunta.style.display = "none"; // Ocultar la siguiente pregunta si la respuesta es "no"
+    }
+  }
+
+  function mostrarSiguientePregunta04() {
+    var respuesta = document.getElementById("pregunta04").value;
+    var siguientePregunta = document.getElementById("siguientePregunta04");
+
+    if (respuesta === "si") {
+      siguientePregunta.style.display = "block"; // Mostrar la siguiente pregunta si la respuesta es "sí"
+    } else {
+      siguientePregunta.style.display = "none"; // Ocultar la siguiente pregunta si la respuesta es "no"
+    }
+  }
+
+  function mostrarSiguientePregunta05() {
+    var respuesta = document.getElementById("pregunta05").value;
+    var siguientePregunta = document.getElementById("siguientePregunta05");
+
+    if (respuesta === "si") {
+      siguientePregunta.style.display = "block"; // Mostrar la siguiente pregunta si la respuesta es "sí"
+    } else {
+      siguientePregunta.style.display = "none"; // Ocultar la siguiente pregunta si la respuesta es "no"
+    }
+  }
+</script>
+
+<!--aspectos de repercusion ocular-->
+
+
+<script>
+        function toggleDolorCabeza(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleDolorOcular(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleCansancioVisual(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleHiperemia(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleCongestion(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleEpifora(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleMiodesopsias(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleFotopsias(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleSecrecion(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleAlteraciones(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+
+        function toggleDefectos(radio) {
+            var row = radio.parentNode.parentNode;
+            var inputs = row.getElementsByTagName('input');
+            var selects = row.getElementsByTagName('select');
+            var status = (radio.value === "no");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type !== "radio") {
+                    inputs[i].disabled = status;
+                }
+            }
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].disabled = status;
+                if (status) {
+                    selects[j].selectedIndex = 0;
+                }
+            }
+        }
+    </script>
 
 </html>
 
