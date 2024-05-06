@@ -25,7 +25,7 @@
 
 <body background="../assets/img/fondos.png" class="g-sidenav-show">
   <div class="position-absolute w-100" style="color:#000"></div>
-  <aside
+  <aside 
     class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 "
     id="sidenav-main">
     <div class="sidenav-header">
@@ -39,7 +39,7 @@
     </div>
     <br>
     <hr class="horizontal dark mt-0">
-    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+    <div class="collapse navbar-collapse " id="sidenav-collapse-main" >
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="dashboard.php">
@@ -138,10 +138,10 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class=""><a class="opacity-5" href="dashboard.php" style="color:#000">L'ottica</a></li>
-            <li class="opacity-5" aria-current="page" style="color:#000">| Inicio</li>
+            <li class="opacity-5" aria-current="page" style="color:#000">| Pacientes</li>
           </ol>
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-            <li class="font-weight-bolder " style="color:#000">Bienvenido <?php  echo $nombre; ?></li>
+            <li class="font-weight-bolder " style="color:#000"><?php  echo $nombre; ?></li>
           </ol>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
@@ -212,6 +212,7 @@
     }
     </style>
 
+<!--INICIO HISTORIA CLINICA-->
 <h5 class="mb-0">HISTORIA CLINICA</h5>
 <hr class="divider">
 
@@ -237,7 +238,7 @@
      
     </div>
   </div>
-  <div class="col-md-4 position-relative">
+  <div class="col-md-3 position-relative">
     <label for="validationTooltip03" class="form-label">Telefono</label>
     <input type="text" class="form-control" id="validationTooltip03" required>
     <div class="valid-tooltip">
@@ -245,14 +246,22 @@
     </div>
   </div>
 
-  <div class="col-md-4 position-relative">
+  <div class="col-md-3 position-relative">
+    <label for="validationTooltip03" class="form-label">Fecha de visita:</label>
+    <input type="date" class="form-control" id="validationTooltip03" required>
+    <div class="valid-tooltip"> <!--si se puede que se ponga en automatico-->
+     
+    </div>
+  </div>
+
+  <div class="col-md-3 position-relative">
     <label for="validationTooltip04" class="form-label">Ocupación</label>
     <input type="text" class="form-control" id="validationTooltip04" required>
     <div class="valid-tooltip">
     </div>
   </div>
 
-<div class="col-md-4 position-relative">
+<div class="col-md-3 position-relative">
     <label for="validationTooltip05" class="form-label">Pasatiempos</label>
     <input type="text" class="form-control" id="validationTooltip05" required>
     <div class="valid-tooltip">
@@ -1198,21 +1207,154 @@
 
 </div>
             
-            
-            <!--FIN MODAL NUEVO PACIENTE-->
+<!--FIN MODAL HISTORIA CLINICA-->
 
-            <div class="container mt-5">
+          
+</div>
+</div>
 
+<!--TABLA PACIENTES-->
 
+<div class="container">
+  
+  <!-- Tarjeta (Card) -->
+  <div class="card">
 
+  
+    <div class="card-body">
+        <form class="d-flex justify-content-end">
+          <div>
+            <input class="form-control form-control-sm" type="text" placeholder="Buscar" style="width: 250px;">
+          </div><br>
+        </form>
+      
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Teléfono</th>
+              <th>Edad</th>
+              <th>RX O.D.</th> <!--rx=refracción -  O.D= Ojo derecho    -  O.I= Ojos izquierdo>-->
+              <th>RX O.I.</th>
+              <th>Ultima Visita</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-bs-toggle="modal" data-bs-target="#modalDetalle1">Alessandro Venovich</td>
+              <td>744 344 5432</td>
+              <td>33</td>
+              <td>-1.00, -0.25 x 180° </td>
+              <td>-1.25, -0.50 x 10° </td>
+              <td>10-20-2022</td>
+              <td>
+                <button type="button" class="btn" style="width: 50px; background-color: #56d65c;" data-bs-toggle="modal" data-bs-target="#modalEditar1">
+                  <center><i class="fa fa-pencil-square-o" aria-hidden="true" style="color: #ffffff;"></i></center>
+                </button>
 
-            </div>
+                <button type="button" class="btn btn-danger" style="width: 50px; background-color: #fb0000;" onclick="eliminarPaciente()">
+                  <center><i class="fa fa-trash-o" aria-hidden="true" style="color: #ffffff;"></i></center>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Fin de la Tarjeta (Card) -->
+</div>
 
+<!-- Modal para mostrar información detallada del paciente -->
+<div class="modal fade" id="modalDetalle1" tabindex="-1" style="position: relative;  margin-top: -430px; aria-labelledby="modalDetalleLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDetalleLabel1">Alessandro Venobich</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
+        <div class="row">
+          <div class="col-sm-3">
+            <p><strong>Nombre:</strong> Alessandro Venovich</p>
+          </div>
+          <div class="col-sm-4">
+             <p><strong>Fecha de Nacimiento:</strong> 23/12/1990</p>
+          </div>
+          <div class="col-sm-2">
+             <p><strong>Edad:</strong> 33</p>
+          </div>
 
+          <div class="col-sm-3">
+            <p><strong>Telefono:</strong> 744 344 5432</p>
+          </div>
+          <div class="col-sm-5">
+             <p><strong>Ocupación:</strong> Maestro de artes marciales</p>
+          </div>
+          <div class="col-sm-7">
+             <p><strong>Pasatiempos:</strong> Musica, Leer, Correr, Cantar</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p><strong>Ultima Visita:</strong> 20-10-2022</p>
+          </div>
+
+          <div class="col-sm-9">
+             <p><strong>Motivo de Visita:</strong> Visión doble, dolor de cabeza, sencibilidad a la luz</p>
+          </div>
+
+          
         </div>
-            
-             
-        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para editar datos -->
+
+
+<div class="modal fade" id="modalEditar1" tabindex="-1" style="position: relative;  margin-top: -430px;" aria-labelledby="modalEditarLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalEditarLabel1">Editar Datos del Paciente</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
+      <p>Nombre: John Doe</p>
+        <p>Teléfono: 123-456-7890</p>
+        <p>Edad: 35</p>
+        <p>RX: 1234567890</p>
+        <p>Fecha de Visita: 2022-10-20</p>
+        <p>Nombre: John Doe</p>
+        <p>Teléfono: 123-456-7890</p>
+        <p>Edad: 35</p>
+        <p>RX: 1234567890</p>
+        <p>Fecha de Visita: 2022-10-20</p>
+        <p>Nombre: John Doe</p>
+        <p>Teléfono: 123-456-7890</p>
+        <p>Edad: 35</p>
+        <p>RX: 1234567890</p>
+        <p>Fecha de Visita: 2022-10-20</p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- FIN TABLA PACIENTES-->
         
 
       <footer class="footer pt-3  ">
@@ -1619,6 +1761,8 @@
             }
         }
     </script>
+
+
 
 </html>
 
