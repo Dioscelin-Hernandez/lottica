@@ -438,7 +438,7 @@
     </div>
     <div id="siguientePregunta4" style="display: none;">
     <div class="mb-3">
-      <label for="pregunta4" class="form-label">¿Operado?</label>
+      <label for="pregunta4" class="form-label">¿Con cirugia?</label>
       <select class="form-select" id="pregunta4" >
       <option value="" disabled selected hidden>Selecciona una opción</option>
       <option value="si">Sí</option>
@@ -1278,31 +1278,119 @@
       <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
         <div class="row">
           <div class="col-sm-3">
-            <p><strong>Nombre:</strong> Alessandro Venovich</p>
+            <p style="color:#5d5d5d"><strong>Nombre:</strong> Alessandro Venovich</p>
           </div>
           <div class="col-sm-4">
-             <p><strong>Fecha de Nacimiento:</strong> 23/12/1990</p>
+             <p style="color:#5d5d5d"><strong>Fecha de Nacimiento:</strong> 23/12/1990</p>
           </div>
           <div class="col-sm-2">
-             <p><strong>Edad:</strong> 33</p>
+             <p style="color:#5d5d5d"><strong>Edad:</strong> 33</p>
           </div>
 
           <div class="col-sm-3">
-            <p><strong>Telefono:</strong> 744 344 5432</p>
+            <p style="color:#5d5d5d"><strong>Telefono:</strong> 744 344 5432</p>
           </div>
           <div class="col-sm-5">
-             <p><strong>Ocupación:</strong> Maestro de artes marciales</p>
+             <p style="color:#5d5d5d"><strong>Ocupación:</strong> Maestro de artes marciales</p>
           </div>
           <div class="col-sm-7">
-             <p><strong>Pasatiempos:</strong> Musica, Leer, Correr, Cantar</p>
+             <p style="color:#5d5d5d"><strong>Pasatiempos:</strong> Musica, Leer, Correr, Cantar</p>
           </div>
 
           <div class="col-sm-3">
-             <p><strong>Ultima Visita:</strong> 20-10-2022</p>
+             <p style="color:#5d5d5d"><strong>Ultima Visita:</strong> 20-10-2022</p>
           </div>
 
           <div class="col-sm-9">
-             <p><strong>Motivo de Visita:</strong> Visión doble, dolor de cabeza, sencibilidad a la luz</p>
+             <p style="color:#5d5d5d"><strong>Motivo de Visita:</strong> Visión doble, dolor de cabeza, sencibilidad a la luz</p>
+          </div>
+
+          <hr class="divider">
+          <h6 class="mb-0" style="position: relative;  margin-top:10px; color:black;">
+            SALUD VISUAL E HISTORIAL ÓPTICO
+          </h6><br><br>
+
+          <div class="col-sm-4">
+             <p style="color:#5d5d5d"><strong>Último examen de la vista:</strong> 2 años</p>
+          </div>
+
+          <div class="col-sm-4">
+             <p style="color:#5d5d5d"><strong>Tiempo con la última graduación:</strong> 2 años</p>
+          </div>
+
+          <div class="col-sm-4">
+             <p style="color:#5d5d5d"><strong>¿Como ve Actualmentes?</strong> Empañado</p>
+          </div>
+
+          <hr class="divider">
+          <h6 class="mb-0" style="position: relative;  margin-top:10px; color:black;">
+            ANTECEDENTES DE SALUD PERSONAL
+          </h6><br><br>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Hipertensión:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Controlada?</strong> Sí</p>
+          </div>
+
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Diabetes:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Controlada?</strong> Sí</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Glaucoma:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Con cirugia?</strong> Sí</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Catarata:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Con cirugia?</strong> Sí</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Queratocono:</strong> Sí</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Cirugías en Cabeza u ojos:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Porqué?</strong> Caída</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Traumatismos:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Donde?</strong> Golpe en Ojos</p>
+          </div>
+
+          <hr class="divider">
+          <h6 class="mb-0" style="position: relative;  margin-top:10px; color:black;">
+            ANTECEDENTES HEREDOFAMILIARES 
+          </h6><br><br>
+          
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Hipertensión:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Quien?</strong> Abuelos</p>
+          </div>
+
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Diabetes:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Quien?</strong> Padres</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Glaucoma:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Quien?</strong> Padres</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Catarata:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Quien?</strong> Abuelos</p>
+          </div>
+
+          <div class="col-sm-3">
+             <p style="color:#5d5d5d"><strong>Queratocono:</strong> Sí</p>
+             <p style="color:#5d5d5d; margin-top:-15px;"><strong>¿Quien?</strong> Hermanos</p>
           </div>
 
           
