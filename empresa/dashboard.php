@@ -1,5 +1,5 @@
 <?php
-  /*session_start();
+  session_start();
   // URL de la API a la que deseas hacer la solicitud POST
 $apiUrl = "http://127.0.0.1:8000/api/sesion";
 
@@ -21,7 +21,7 @@ $response = curl_exec($ch);
 
 if(http_response_code() === 200){
   $data = json_decode($response, true);
-  if ($data !== null && !empty($data)) {
+  if ($data !== null && !empty($data)){
     // Acceder al primer elemento del array
     $primerElemento = $data[0];
 
@@ -30,9 +30,9 @@ if(http_response_code() === 200){
         $nombre = $primerElemento['nombre'];
     
   
-      if($nombre != null){*/
+      if($nombre != null){
         ?>
-      <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -62,7 +62,7 @@ if(http_response_code() === 200){
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
         aria-hidden="true" id="iconSidenav"></i>
-      <a class="navbar-brand m-0" href="dashboard.php">
+      <a class="navbar-brand m-0" href="dashboard">
         <center>
           <img src="../assets/img/logo.png" alt="main_logo" width="120" height="70">
         </center>
@@ -73,7 +73,7 @@ if(http_response_code() === 200){
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="dashboard.php">
+          <a class="nav-link active" href="dashboard">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-tv-2 text-dark text-sm opacity-10"></i>
@@ -82,7 +82,7 @@ if(http_response_code() === 200){
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="pacientes.php">
+          <a class="nav-link " href="pacientes">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="fas fa-users text-dark text-sm opacity-10"></i>
@@ -91,7 +91,7 @@ if(http_response_code() === 200){
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="productos.php">
+          <a class="nav-link " href="productos">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="fas fa-glasses text-dark text-sm opacity-10"></i>
@@ -100,7 +100,7 @@ if(http_response_code() === 200){
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="ventas.php">
+          <a class="nav-link " href="ventas">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="fas fa-money-check-alt text-dark text-sm opacity-10"></i>
@@ -109,7 +109,7 @@ if(http_response_code() === 200){
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="empleados.php.">
+          <a class="nav-link " href="empleados">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="fas fa-user-friends text-dark text-sm opacity-10"></i>
@@ -118,7 +118,7 @@ if(http_response_code() === 200){
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="inventario.php.">
+          <a class="nav-link " href="inventario">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-app text-dark text-sm opacity-10"></i>
@@ -130,7 +130,7 @@ if(http_response_code() === 200){
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Cuenta</h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="perfil.php">
+          <a class="nav-link " href="perfil">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
@@ -139,7 +139,7 @@ if(http_response_code() === 200){
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="../class/salir.php">
+          <a class="nav-link " href="../class/salir">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="fas fa-sign-in-alt text-dark text-sm opacity-10"></i>
@@ -148,7 +148,7 @@ if(http_response_code() === 200){
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="Ayuda.php">
+          <a class="nav-link " href="Ayuda">
             <div
               class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="far fa-question-circle text-dark text-sm opacity-10"></i>
@@ -579,21 +579,20 @@ if(http_response_code() === 200){
 
 </html>
 
-    <?php
-      /*}}
+<?php
+    
 
   
   }else{  ?>
-    <script>
-      alert('No autorizado')
-    </script>
-    
+<script>
+  alert('No autorizado')
+</script>
 
-  <?php
+
+<?php
   header('location:../');
   }
+}}
 }
-*/
+
 ?>
-
-
